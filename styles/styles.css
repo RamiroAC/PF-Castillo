@@ -10,6 +10,7 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    border-bottom: 2px solid #641c14;
 }
 
 .marca h1{
@@ -35,6 +36,7 @@ nav a:hover{
 /* MAIN */
 
 .banner img{
+   margin-top: 15px;
    width: 90%;
    margin-left: 71.205px;
    border: 2px solid #641c14;
