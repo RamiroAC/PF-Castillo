@@ -11,6 +11,7 @@ header{
     justify-content: space-between;
     padding: 10px;
     border-bottom: 2px solid #641c14;
+    margin-bottom: 15px;
 }
 
 .marca h1{
@@ -20,23 +21,30 @@ header{
 header a{
     text-decoration: none;
     color: black;
+    transition: color 0.25s, box-shadow 0.25s, 
 }
 
 nav li{
     list-style: none;
     display: inline-block;
-    margin: 0 5px 0 5px;
+    margin: 20px 5px 0 5px;
+    transition: transform 0.25s;
 }
 
 nav a:hover{
     color: #cc9c44;
+    box-shadow: 0 0.5em 0.5em -0.4em #ffef5c;
+    
+}
+
+nav li:hover{
+    transform: translateY(-0.25em);
 }
 
 
 /* MAIN */
 
 .banner img{
-   margin-top: 15px;
    width: 90%;
    margin-left: 71.205px;
    border: 2px solid #641c14;
@@ -49,6 +57,7 @@ nav a:hover{
     margin-left: 55px;
     border: 2px solid #641c14;
     border-radius: 1.5%;
+    margin-bottom: 15px;
 }
 
 /* PRODUCTOS */
