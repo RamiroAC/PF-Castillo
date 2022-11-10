@@ -120,27 +120,22 @@ section h2{
 
 /* CONTACTO */
 
-    .formulario{
-        height: 82vh;
-    }
+.formulario{
+    height: 85vh;
+}
 
-    .containerInput{
-        margin-bottom: 30px;
-    }
+.btn{
+    border: 1px solid #641c14;
+    background-color: #977352;
+}
 
-    input{
-        height: 30px; 
-        width: 40%;
-        border-radius: 5px;
-    }
+.btn:hover{
+    border: 1px solid #cc9c44;
+    background-color: #cc9c44;
+}
 
-    button{
-        height: 40px;
-        width: 70px;
-        border-radius: 20px;
-    }
 
-    /* FOOTER */
+/* FOOTER */
 
     footer{
         margin: 0;

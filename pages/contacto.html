@@ -30,33 +30,35 @@
     
     <section class="formulario">
         <h2>Contáctanos!</h2>
-        <form action="#">
-            <div class="containerInput">
-                <label for="nombre">Nombre:</label>
-                <br>
-                <input type="text" name="nombre" id="nombre">
-            </div>
+        <div class="container formulario">
+            <form action="#" class="row g-3">
 
-            <div class="containerInput">
-                <label for="email">Email:</label>
-                <br>
-                <input type="email" name="email" id="email">
-            </div>
+                <div class="col-12">
+                    <label for="nombre" class="form-label">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Escribe tu Nombre">
+                </div>
 
-            <div class="containerInput">
-                 <label for="telefono">Telefono:</label>
-                 <br>
-                <input type="tel" name="telefono" id="telefono" placeholder="(opcional)">
-            </div>
+                <div class="col-12">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Escribe tu Email">
+                </div>
 
-            <div class="containerInput">
-                <label for="mensaje">Mensaje:</label>
-                <br>
-                <input type="text" name="mensaje" id="mensaje">
-            </div>
+                <div class="col-12">
+                    <label for="telefono" class="form-label">Nombre:</label>
+                    <input type="number" class="form-control" id="telefono" placeholder="Escribe tu Telefono">
+                </div>
 
-            <button type="submit">Enviar</button>
-        </form>
+                <div class="col-12">
+                    <label for="textArea" class="form-label">Mensaje:</label>
+                    <textarea class="form-control" id="textArea" rows="3"></textarea>
+                </div>
+
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Enviar!</button>
+                </div>
+
+            </form>
+        </div>
     </section>
 
     <footer>
