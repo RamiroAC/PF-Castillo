@@ -1,0 +1,35 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px solid $colorBorde;
+    margin-bottom: 15px;
+    
+    .marca h1{
+        margin: 5px;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+        transition: color 0.25s, box-shadow 0.25s, 
+    }
+
+    nav{
+        li{
+            list-style: none;
+            display: inline-block;
+            margin: 20px 5px 0 5px;
+            transition: transform 0.25s;
+        }
+
+        a:hover{
+            color: #cc9c44;
+            box-shadow: 0 0.5em 0.5em -0.4em #ffef5c;
+        }
+
+        li:hover{
+            transform: translateY(-0.25em);
+        }
+    }
+}

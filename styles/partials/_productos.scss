@@ -1,0 +1,26 @@
+section{
+    h2{
+        text-align: center;
+    }
+
+    .containerProductos{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+
+        .imgProductos{
+            background-color: $colorSecundario;
+            display: inline-block;
+            border: 2px solid $colorBorde;
+            margin: 20px;
+            text-align: center;
+            border-radius: 2%;
+
+            img{
+                width: 280px;
+                border-radius: 2%;
+            }
+        }
+    }
+}
+

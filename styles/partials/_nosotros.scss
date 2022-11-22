@@ -1,0 +1,19 @@
+.sobreNosotros{
+    height: 82vh;
+
+    .containerNosotros{
+        margin: 0 20px 0 50px;
+
+        img{
+            width: 400px;
+            border: 2px solid #641c14;
+            border-radius: 50%;
+        }
+
+        p{
+            width: 60%;
+            display: inline-block;
+            margin: 20px;
+        }
+    }
+}
