@@ -1,13 +1,16 @@
+
 header{
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    border-bottom: 2px solid $colorBorde;
+    border-bottom: 2px solid #641c14;
     margin-bottom: 15px;
-    
+
+
+
     .marca h1{
         margin: 5px;
-    }
+        }
 
     a{
         text-decoration: none;
@@ -32,4 +35,4 @@ header{
             transform: translateY(-0.25em);
         }
     }
-}
+  }
