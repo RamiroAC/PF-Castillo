@@ -1,6 +1,9 @@
 body {
   background-color: #dcc59c;
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  padding-bottom: 8em;
+  min-height: 100vh; }
 
 header {
   display: flex;
@@ -106,11 +109,14 @@ section .containerProductos {
   border-color: #641c14; }
 
 footer {
-  margin: 0;
+  margin-top: 15rem;
   height: 25px;
   background-color: #977352;
   color: white;
-  text-align: center; }
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
 
 @media (max-width: 991px) {
   .containerNosotros .cardNosotros {
