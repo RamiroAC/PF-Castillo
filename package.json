@@ -1,0 +1,25 @@
+{
+  "name": "preentrega2-castillo",
+  "version": "1.0.0",
+  "description": "Entrega proyecto final",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss ./styles/origen.scss ./styles/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RamiroAC/Preentrega-2.git"
+  },
+  "author": "Ramiro Castillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RamiroAC/Preentrega-2/issues"
+  },
+  "homepage": "https://github.com/RamiroAC/Preentrega-2#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
